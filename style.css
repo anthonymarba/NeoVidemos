@@ -34,6 +34,9 @@ header{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
+    border-style: solid;
+    border-radius: 5%;
 }
 
 .Logo{
@@ -65,10 +68,6 @@ header{
     padding: 5px;
     margin: 100px;
     border-style: groove;
-}
-
-.imagedescription{
-    font-size: 25px;
 }
 
 footer{
