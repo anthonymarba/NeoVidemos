@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+/* Variáveis */
+:root{
+    --CorDoSite: rgb(173, 173, 173);
+}
+/* Chamar o corpo */
+body{
+    background-color: var(--CorDoSite); /*<-- Chamar a variável de cor */
+}
+/* Chamar a imagem */
+img{
+    width: 20%;
+}
+
+header{    
+    display: flex;
+    align-items: center;
+    padding: 25px;}
+
+.Principal{
+        display:flex;
+        border-radius: 10px;
+        border-style: double;
+        border-color: rgb(0, 0, 0);
+        padding: 70px;
+        margin: 20px 25px;
+        justify-content: center;
+    }
+
+.creators{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Logofoda{
+    border-radius: 5%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.ElPrimo{
+    display: block;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 75px;
+}
+
+.Conhecer{
+    font-size: 50px;
+    text-align: center;
+}
+.description{
+    font-size: 25px;
+    text-align: center;
+}
+
+.BotaoEquipe{
+    font-size: 45px;
+    padding: 5px;
+    margin: 100px;
+    border-style: groove;
+}
+
+.imagedescription{
+    font-size: 25px;
+}
+
+footer{
+    background-color: rgb(15, 15, 15);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
