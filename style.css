@@ -71,16 +71,18 @@ footer{
 }
 
 .antonio {
-    border-style:solid ;
+    border-style:solid;
+    border-radius: 10px;
 }
 
 .gay {
-    border-style:solid
+    border-style:solid;
+    border-radius: 10px;
 }
 
 .batata {
     font-size: 50px;
-    border-style:solid
+    border-style:solid;
 }
 .frita {
     font-size: 50px;
@@ -89,8 +91,4 @@ footer{
 
 .Principalfoda {
     font-size: 25px
-}
-
-.equipe {
-    border-radius: 10px;
 }
